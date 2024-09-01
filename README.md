@@ -1,7 +1,7 @@
 # OpenCV Projects
 Este repositorio contiene cuatro proyectos desarrollados con OpenCV en Python, los cuales abordan diferentes técnicas de procesamiento de imágenes y video. A continuación se describe cada uno de los proyectos:
 
-## 1. Detección de Color Verde en una Imagen
+## 1. Detección de color verde en una imagen
 Este script permite cargar una imagen y detectar áreas que contienen el color verde dentro de un rango específico de valores RGB. El resultado es una máscara binaria que resalta las regiones verdes de la imagen original.
 
 ### Características:
@@ -9,7 +9,7 @@ Este script permite cargar una imagen y detectar áreas que contienen el color v
 * Aplica un umbral para detectar el color verde.
 * Genera y guarda una imagen que muestra solo las áreas verdes detectadas.
 
-## 2. Detección en Tiempo Real de Color Verde en Video
+## 2. Detección en tiempo real de color verde en video
 Este script realiza la detección de color verde en tiempo real usando la cámara web. Se detectan las áreas verdes en cada fotograma del video, y se muestra tanto la imagen original como la imagen con las áreas verdes resaltadas.
 
 ### Características:
@@ -18,7 +18,7 @@ Este script realiza la detección de color verde en tiempo real usando la cámar
 * Muestra el video original y la detección de áreas verdes en tiempo real.
 
 
-## 3. Detección de Rostros en Tiempo Real
+## 3. Detección de rostros en tiempo real
 Este script utiliza un clasificador en cascada preentrenado (haarcascade_frontalface_default.xml) para detectar rostros en tiempo real a través de la cámara web. Los rostros detectados son resaltados con un rectángulo verde.
 
 ### Características:
@@ -27,7 +27,7 @@ Este script utiliza un clasificador en cascada preentrenado (haarcascade_frontal
 * Utiliza un clasificador Haar para detectar rostros.
 * Dibuja un rectángulo verde alrededor de los rostros detectados.
 
-## 4. Conteo de Vehículos en Video
+## 4. Conteo de vehículos en video
 Este script implementa un contador de vehículos utilizando técnicas de sustracción de fondo y procesamiento de contornos en un video pregrabado. El contador se incrementa cada vez que un vehículo cruza una línea específica en el video.
 
 ### Características:
